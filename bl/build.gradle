@@ -1,0 +1,14 @@
+apply plugin: 'java'
+dependencies {
+    implementation files('../dl/dist/hr-dl-1.0.jar','../common/dist/hr-common.jar')
+}
+
+java {
+    sourceSets {
+        main {
+            java {
+                srcDirs = ['src/main/java']
+            }
+        }
+    }
+}

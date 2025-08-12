@@ -1,0 +1,7 @@
+compiling:-
+javac -classpath ..\build\libs\bl.jar;. *.java
+
+Running:-
+java -classpath ..\..\dl\dist\hr-dl-1.0.jar;..\build\libs\bl.jar;..\..\common\dist\hr-common.jar;. DesignationManagerAddTestCase
+
+Don't change anything only change testcase name whatever testcase you will run.
